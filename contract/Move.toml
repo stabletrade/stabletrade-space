@@ -1,0 +1,16 @@
+[package]
+name = "otc_trade"
+version = "1.0.0"
+authors = []
+upgrade_policy = "compatible"
+
+[addresses]
+otc_trade = "af1ddbbb71f31aa74711fb67cd0e6d412fd909f514b4a71be0e59dd5629e44e8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

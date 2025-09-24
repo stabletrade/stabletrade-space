@@ -1,0 +1,119 @@
+.custom-modal .ant-modal-content {
+  @apply !rounded-2xl bg-[#050b25] !p-0;
+}
+
+.ant-modal-mask {
+  /* background-color: rgba(0, 0, 0, 0.6) !important; */
+  @apply bg-[#1a2a3c]/60 backdrop-blur-[29.70px];
+}
+
+.header-search-input .ant-input {
+  @apply font-semibold placeholder:!text-white;
+}
+
+.explore-search-input .ant-input {
+  @apply font-semibold placeholder:!text-primary;
+}
+
+.select-token-search-input .ant-input {
+  @apply font-semibold placeholder:!text-secondary;
+}
+.tw-connect-wallet {
+  /* background-color: brown !important; */
+  @apply flex !h-12 items-center justify-center !rounded-full border-none !bg-error px-5 py-3 text-base font-semibold !text-white hover:!bg-[#CB454F] hover:!text-white;
+}
+
+.tw-connected-wallet {
+  @apply flex !h-12 items-center justify-center !rounded-full !border-none !bg-gray px-5 py-3 text-base font-semibold !text-white hover:!bg-gray hover:!text-white;
+}
+
+.wallet-selector-text {
+  @apply w-full min-w-[200px];
+}
+
+.wallet-button {
+  @apply btn-primary !rounded-none;
+  clip-path: polygon(0 0, calc(100% - 25px) 0, 100% 25px, 100% 100%, 0 100%);
+}
+
+.ant-modal-content {
+  @apply !bg-[#242939];
+}
+
+.wallet-modal-title {
+  @apply text-[#1DE9B6];
+}
+
+.aptos-connect-button {
+  @apply border-white bg-transparent text-white;
+}
+
+.ant-modal-header {
+  @apply !bg-[#242939];
+}
+
+.ant-divider-inner-text {
+  @apply text-white;
+}
+.ant-divider::after,
+.ant-divider::before {
+  @apply !bg-black;
+}
+
+.about-aptos-connect-trigger-wrapper {
+  @apply text-gray-400;
+}
+.about-aptos-connect-trigger {
+  @apply text-white;
+}
+.aptos-connect-privacy-policy-wrapper {
+  @apply text-gray-400;
+}
+.aptos-connect-powered-by {
+  @apply text-gray-400;
+}
+.aptos-connect-privacy-policy-link {
+  @apply text-white;
+}
+.wallet-menu-wrapper {
+  @apply bg-black;
+}
+.wallet-selector-text {
+  @apply text-white;
+}
+.ant-collapse-header-text {
+  @apply text-white;
+}
+
+.wallet-connect-button {
+  @apply btn-primary h-2 !rounded-none;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+}
+
+.wallet-connect-install {
+  @apply text-[#1DE9B6];
+}
+
+.drawer-close-icon .anticon-close {
+  color: #141A36 !important;
+}
+
+/* Custom Select Text Truncation */
+.custom-select .ant-select-selector {
+  @apply !overflow-hidden;
+}
+
+.custom-select .ant-select-selection-item {
+  @apply !overflow-hidden !text-ellipsis !whitespace-nowrap;
+}
+
+.custom-popup .ant-select-item-option-content {
+  @apply !overflow-hidden !text-ellipsis !whitespace-nowrap;
+}
+
+.anticon-right {
+  color: white !important;
+}
+.ant-collapse-header{
+  @apply mb-2
+}
